@@ -5,8 +5,9 @@ This is a quick test for the NVIDIA docker runtime on an ARM64v8 machine, like a
 This code is based on example code found in [DLology Blog](https://www.dlology.com/blog/how-to-run-keras-model-on-jetson-nano-in-nvidia-docker-container/).
 
 I have this pre-built in my DockerHub account at: ibmosquito/ndtest:1.0.0, so the easiest way to use this is:
-
-docker run -it ibmosquito/ndtestdq:1.0.0
+```
+docker run -it ibmosquito/ndtest:1.0.0
+```
 
 Otherwise you can clone this repo, and just run `make`. That will build a local copy of the container and run it.
 
